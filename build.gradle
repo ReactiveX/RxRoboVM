@@ -6,7 +6,7 @@ buildscript {
 apply plugin: 'rxjava-project'
 
 dependencies {
-    compile 'com.netflix.rxjava:rxjava-core:0.20.2'
+    compile 'io.reactivex:rxjava:1.0.+'
     compile 'org.robovm:robovm-rt:0.0.12'
     compile 'org.robovm:robovm-objc:0.0.12'
     compile 'org.robovm:robovm-cocoatouch:0.0.12'
